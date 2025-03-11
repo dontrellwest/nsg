@@ -47,6 +47,20 @@ Steps:
 <br><br>
 6.	Stop the Ping Test: Once confirmed, stop the continuous ping process in PowerShell by pressing Ctrl + C, or closing Powershell.
 
+<h2>Summary & Significance</h2>
+
+<h3>What You Did</h3>
+	•	Started a continuous ping to monitor ICMP traffic. <br>
+	•	Used Azure NSG rules to temporarily block and re-enable ICMP traffic. <br>
+	•	Observed the effects of firewall changes in Wireshark and PowerShell. <br>
+
+<h3>Why This Matters:</h3>
+	•	NSGs are essential for cloud security – they control which traffic is allowed or blocked between Azure resources.<br>
+	•	ICMP filtering is commonly used for security to prevent unauthorized network scanning or restrict unnecessary ping traffic.<br>
+	•	Using Wireshark for real-time packet analysis provides insight into how network rules affect communication at the packet level.<br>
+	•	Understanding NSGs helps troubleshoot connectivity issues – for example, if a service isn’t reachable, checking NSG rules can reveal whether traffic is being blocked.<br>
+<br>
+By completing this tutorial, you’ve gained hands-on experience with configuring security rules in Azure, monitoring network traffic with Wireshark, and understanding how firewall policies affect ICMP communication.
 
 
 
